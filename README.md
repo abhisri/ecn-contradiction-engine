@@ -24,6 +24,9 @@ You may **share and adapt this work** for **non-commercial purposes**, provided 
 **Commercial use** — including monetization, product integration, or use in paid services — **requires a separate license**.  
 To inquire about a commercial license, contact: **abhisri [at] gmail.com**
 
+GitHub recognizes this license as CC BY-NC-SA 4.0.
+See LICENSE file for full terms, including commercial use restrictions.
+
 ---
 
 **References**
