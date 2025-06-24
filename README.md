@@ -22,7 +22,7 @@ Licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 In
 You may **share and adapt this work** for **non-commercial purposes**, provided you give **appropriate credit** and license your derivatives under the **same terms**.
 
 **Commercial use** — including monetization, product integration, or use in paid services — **requires a separate license**.  
-To inquire about a commercial license, contact: **abhisr [at] gmail.com**
+To inquire about a commercial license, contact: **abhisri [at] gmail.com**
 
 ---
 
