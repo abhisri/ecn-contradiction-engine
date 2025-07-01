@@ -29,6 +29,16 @@ See LICENSE file for full terms, including commercial use restrictions.
 
 ---
 
+**Dual-License Clarification (Updated 1 July 2025)**
+
+In addition to the terms of the CC BY-NC-SA 4.0 license:
+
+> **If this work, or substantial derivatives thereof, are used in commercial AI systems, logic engines, or symbolic frameworks — including but not limited to inference modules, reasoning agents, or problem-solving architectures — a separate commercial license is mandatory.**
+
+To inquire about such use or licensing, contact: **abhisri [at] gmail.com**
+
+---
+
 **References**
 
 - [OSF Registration (timestamped prior art)](https://osf.io/c2va4)  
