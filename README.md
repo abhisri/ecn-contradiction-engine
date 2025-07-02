@@ -37,6 +37,8 @@ In addition to the terms of the CC BY-NC-SA 4.0 license:
 
 To inquire about such use or licensing, contact: **abhisri [at] gmail.com**
 
+“No patent rights are granted under this license. Use of ECN-derived mechanisms in commercial reasoning systems — including symbolic evolution pipelines, contradiction engines, or proof trace systems — may require additional patent licensing, pending filings.”
+
 ---
 
 **References**
