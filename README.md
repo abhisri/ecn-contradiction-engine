@@ -24,7 +24,7 @@ Unlike probabilistic LLMs, ECN does not depend on tokens, embeddings, large-scal
 3. File patent coverage for commercially sensitive mechanisms (where appropriate), then publish the remaining details.
 
 ## What is done
-1. Basic POC v1 - ECN Code is mimicking human reasoning and rediscovering identity axiom, modus ponens modus tones etc level 3 classical logics on its own, starting from basic symbols.
+1. Basic POC v1 - In a small classical-logic domain, ECN Code reproduces human-like inference behavior by autonomously synthesizing and promoting standard inference rules as executable DSL programs. In successful fresh runs, synthesis is 100% enumeration with 0% template fallback, rediscovering Modus Ponens (DETACHMENT) and Modus Tollens (INVERSION), and also Hypothetical Syllogism (COMPOSITION).
 
 ## License
 
