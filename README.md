@@ -1,54 +1,53 @@
 # ECN: Evolutionary Contradiction Network
 
-**ECN (Evolutionary Contradiction Network)** is a symbolic cognitive architecture intended to evolve reasoning through internal contradiction detection, belief mutation, and goal realignment, rather than token prediction.
+**ECN (Evolutionary Contradiction Network)** is a symbolic cognitive architecture for studying whether reasoning techniques can be **rediscovered** from a small fixed vocabulary of primitives, rather than retrieved from a pre-built library. It treats reasoning as an evolutionary process: contradictions surface gaps in the current technique set; mutation pressure synthesises candidate techniques; canary-validated survivors enter a per-shape ledger of bounded "top-N" alternates; failed candidates feed back as re-entry hooks for later re-attempts.
 
-Paired with **CREH (Contradiction Re-Entry Hooks)**, ECN revisits failed hypotheses and attempts repair by rewriting internal symbolic structure. It stores unresolved reasoning paths in a **Latent Novelty Buffer (LNB)** and triggers corrective pressure via a **Goal Drift Monitor (GDM)**.
+The thesis is **emergence**, not usage. A system pre-loaded with structured operators and rule-aware dispatchers is *using* symbolic machinery; a system building those operators from a "Neanderthal vocabulary" of ~10 primitives, under strict oracle-separation, is *evincing* emergence.
 
-Unlike probabilistic LLMs, ECN does not depend on tokens, embeddings, large-scale corpora, or gradient-based learning. It operates within a self-modifying symbolic space, where reasoning strategies can be generated, tested, retained, or replaced under explicit governance and utility constraints.
+Classical propositional logic is the proving ground, not the thesis. It is bounded, admits unambiguous canary validation, and is expressible over a small primitive vocabulary. The architecture is designed for subsequent expansion to richer symbolic domains (pre-arithmetic, then open symbolic problem spaces).
+
+## Key Finding
+
+ECN achieves **100% closure** on a structured 735-problem propositional logic benchmark across six difficulty levels, while its learning subsystem shows **zero measurable transfer effect** (M7 = neutral across 755 matched pairs). This closure-vs-learning gap was not designed or anticipated; it emerged purely through rigorous matched-pair measurement. See the full paper for details.
 
 ## What is in this repo
 
-- **ECN_Academic_Paper_2026_v2.docx**  
-  Public redacted paper describing the architecture, modules, and intended research direction. Some scoring and tuning details are intentionally withheld.
+- **ECN_Academic_Paper.pdf** / **ECN_Academic_Paper.docx** — Academic paper describing the architecture, benchmark methodology, and the closure-vs-learning gap finding. Architecture is described at block-diagram level; synthesis internals are intentionally withheld.
+- **LICENSE** — CC BY-NC-SA 4.0 with dual-license clarification for commercial AI use.
 
-## What is not in this repo (yet)
+## What is not in this repo
 
-- A complete reference implementation of ECN
-- Reproducible benchmarks and test suites
-- Full parameterization details for utility scoring and gating
-
-## Roadmap
-
-1. Finish the ECN proof-of-concept and publish a reproducible demo with clear evaluation tasks.
-2. Expand the paper with formal definitions, proofs/guarantees where applicable, and verifier integrations.
-3. File patent coverage for commercially sensitive mechanisms (where appropriate), then publish the remaining details.
-
-## What is done
-1. Basic POC v1 - In a small classical-logic domain, ECN Code reproduces human-like inference behavior by autonomously synthesizing and promoting standard inference rules as executable DSL programs. In successful fresh runs, synthesis is 100% enumeration with 0% template fallback, rediscovering Modus Ponens (DETACHMENT) and Modus Tollens (INVERSION), and also Hypothetical Syllogism (COMPOSITION).
+- Source code (available under separate commercial license)
+- Raw benchmark data and execution logs
+- Full parameterisation details for synthesis internals
 
 ## License
 
-Copyright © 2025 Abhishek Srivastava  
-Licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+Copyright © 2025-2026 Abhishek Srivastava (sabhi12 on reddit)
+Licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You may **share and adapt** this work for **non-commercial purposes**, provided you give **appropriate credit** and license derivatives under the **same terms**.
+You may **share and adapt** this work for **non-commercial purposes**, provided you give **appropriate credit** and license your derivatives under the **same terms**.
 
-**Commercial use** (including monetization, product integration, or use in paid services) requires a separate commercial license.  
-To inquire about commercial licensing: **abhisri [at] gmail.com**
+**Commercial use** — including monetisation, product integration, or use in paid services — **requires a separate license**. To inquire about a commercial license, contact: **abhisri [at] gmail.com**
 
-### Dual-license clarification (Updated 1 July 2025)
+GitHub recognises this license as CC BY-NC-SA 4.0. See `LICENSE` for full terms, including commercial use restrictions.
 
-In addition to CC BY-NC-SA 4.0:
+### Dual-License Clarification (Updated 1 July 2025)
 
-> If this work, or substantial derivatives, are used in commercial AI systems, logic engines, reasoning agents, or symbolic frameworks (including inference modules and problem-solving architectures), a separate commercial license is mandatory.
+In addition to the terms of the CC BY-NC-SA 4.0 license:
 
-No patent rights are granted under this license. Use of ECN-derived mechanisms in commercial reasoning systems may require additional patent licensing, pending filings.
+> If this work, or substantial derivatives thereof, are used in commercial AI systems, logic engines, or symbolic frameworks — including but not limited to inference modules, reasoning agents, or problem-solving architectures — a separate commercial license is mandatory.
+
+To inquire about such use or licensing, contact: **abhisri [at] gmail.com**
+
+> No patent rights are granted under this license. Use of ECN-derived mechanisms in commercial reasoning systems — including symbolic evolution pipelines, contradiction engines, or proof trace systems — may require additional patent licensing, pending filings.
 
 ## References
 
-- OSF Registration (timestamped prior art): https://osf.io/c2va4  
-- Zenodo DOI upload: coming soon
+- [OSF Project (public)](https://osf.io/bg5r3)
+- [OSF Registration — timestamped prior art, June 2025](https://osf.io/c2va4)
+- Zenodo DOI Upload — pending
 
 ## Tags
 
-Symbolic AI · Cognitive Architecture · CREH · ECN · Novelty Buffer · Goal Drift · Post-LLM Reasoning · Volitional Mutation · Non-Probabilistic AI
+Symbolic AI · Cognitive Architecture · Rediscovery · ECN · Compositional Synthesis · Contradiction-Driven Mutation · Anti-Smuggling Discipline · Oracle-Safe Discovery · Post-LLM Reasoning · Non-Probabilistic AI
